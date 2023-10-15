@@ -1,0 +1,106 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+  --Purple: hsl(259, 100%, 65%)
+  --Light red: hsl(0, 100%, 67%)
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--off-black);
+}
+
+#box {
+    box-shadow: 1px 1px 5px 5px var(--light-grey); /* Horizontal, Vertical, Blur, Color */
+    margin: 10px;
+    max-width:100%;
+    height:680px;
+    display: grid;
+    place-items: center;
+}
+
+#box1 {
+  background-color: var(--white);
+  border-radius: 10px 20px 100px 30px;
+  padding: 0px 10px 0px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 300px;
+  height:410px;
+}
+
+form{
+  margin-left: 16px;
+  justify-content: center;
+  margin-top: 40px;
+  display:flex;
+  color: var(--smokey-grey);
+  height: 60px;
+}
+
+.label-input-container {
+  margin-right: 20px; 
+}
+
+input[type="text"]{
+  width: 79px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border-color: cornsilk;
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 5px;
+}
+
+#change_button{
+  margin-left: 120px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color:blue; 
+  cursor: pointer;
+}
+hr { 
+  margin-top: 40px;
+}
+
+.age{
+  margin-left: 40px;
+}
+
+
+.date{
+  font-size: 38px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+
+.output_value{
+  margin-right: 5px;
+  color:blue;
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900; 
+  font-style: italic; 
+}
+
+
+#days,#months,#years{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; 
+  font-size: 18px;
+}
+
+small{
+  font-family: 'Poppins', sans-serif;
+  font-size: 8px;
+  font-weight: 100px;
+  font-style: italic;
+}
+

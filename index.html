@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400i,700,800i&display=swap">
+  </head>
+  <body>
+    <div id="box">
+      <h1>Age Calculator</h1>
+      <div id="box1">
+        <form id="signup">
+          <div class="label-input-container">
+            <label for="day">DAY</label><br />
+            <input type="text" id="days" name="days" placeholder="DD" /><br>
+            <small></small>
+          </div>
+          <div class="label-input-container">
+            <label for="month">MONTH</label><br />
+            <input type="text" id="months" name="months" placeholder="MM" /><br>
+            <small></small>
+          </div>
+          <div class="label-input-container">
+            <label for="Year">YEAR</label><br />
+            <input type="text" id="years" name="years" placeholder="YYYY"/><br>
+            <small></small>
+          </div>
+        </form>
+        <div>
+          <hr>
+          <div class="button_Set">
+          <button id="change_button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+          </button>
+          </div>
+        </div>
+        <div class="age">
+          <p><span class="output_value">- -</span><span class="date">years</span></p>
+          <p><span class="output_value">- -</span><span class="date">months</span></p>
+          <p><span class="output_value">- -</span><span class="date">days</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
